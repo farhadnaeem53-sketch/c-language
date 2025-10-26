@@ -10,10 +10,7 @@ int main(int argc, char const *argv[])
     printf("a - b = %d\n", a - b);
     printf("a * b = %d\n", a * b);
     printf("a / b = %d\n", a / b);
-
-        int c;
-    c = 50;
-    printf("a + c = %d\n", a + c);
+    
     return 0;
 }
     
