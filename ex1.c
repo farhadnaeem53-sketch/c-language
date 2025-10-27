@@ -1,10 +1,10 @@
 #include <stdio.h>
 /*
-print multiplication table of a number entered by the user in p[retty form]
+print multiplication table of a number entered by the user in pretty form
 
 example:
 
-input
+input:
 Enter the number you want multiplication table of:
 6
 
@@ -22,9 +22,18 @@ table of 6:
 6 x 10 = 60
 */
 
-
 int main()
 {
-    /* code */
+    int n; // user ka number store karne ke liye variable
+    printf("Enter the number you want multiplication table of:\n");
+    scanf("%d", &n); // user se number lena
+
+    printf("Table of %d:\n", n); // heading print karna
+
+    for (int i = 1; i <= 10; i++) // loop 1 se 10 tak
+    {
+        printf("%d x %d = %d\n", n, i, n * i); // table print karna
+    }
+
     return 0;
 }
