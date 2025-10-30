@@ -3,9 +3,10 @@
 int main()
 {
     int a =8;
-    float b = 7.333;
+    const float b = 7.333;
+    // b = 7.22;  // Since b is a constant
     // printf("Hello World\n");
-     //printf("The value of a is %d and the value of b is %.4f\n", a, b);
+    //printf("The value of a is %d and the value of b is %.4f\n", a, b);
 
 
      
